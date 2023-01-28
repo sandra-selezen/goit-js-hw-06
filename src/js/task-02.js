@@ -11,9 +11,9 @@ const ingredientsListEl = document.querySelector('#ingredients');
 const listItemsEl = [];
 
 ingredients.forEach((ingredient) => {
-  const ingredientItem = document.createElement('li');
-  ingredientItem.classList.add('item');
-  ingredientItem.textContent = ingredient;
+  const ingredientItemEl = document.createElement('li');
+  ingredientItemEl.classList.add('item');
+  ingredientItemEl.textContent = ingredient;
   listItemsEl.push(ingredientItem);
 });
 
