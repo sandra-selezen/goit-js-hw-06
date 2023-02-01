@@ -3,19 +3,15 @@ const form = document.querySelector(".login-form");
 const onFormSubmit = event => {
     event.preventDefault();
 
-    const email = form.email.value;
-    const password = form.password.value;
-    
-    const formData = {
-        email,
-        password,
-    }
+    const {
+        elements: { email, password }
+    } = event.currentTarget;
 
-    if (email === "" || password === "") {
+    if (email.value === "" || password.value === "") {
         return alert("Please fill in all the fields!");
     }
 
-    console.log(`Email: ${email}, Password: ${password}`);
+    console.log(`Email: ${email.value}, Password: ${password.value}`);
     event.currentTarget.reset();
 }
 
