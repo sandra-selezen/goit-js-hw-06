@@ -8,7 +8,7 @@ const destroyBtn = document.querySelector("button[data-destroy]");
 const boxes = document.querySelector("#boxes");
 
 const onInputClick = event => {
-  const newDiv = number.value;
+  const newDiv = Number(number.value);
 
   createBoxes(newDiv);
 }
