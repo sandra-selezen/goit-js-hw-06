@@ -7,14 +7,12 @@ itemsEl.forEach((item) => {
 });
 
 /* 
-HTML містить список категорій ul#categories.
-Напиши скрипт, який:
+1. Will count and display in the console the number of categories in ul#categories, that is, li.item elements.
+2. For each li.item element in the ul#categories list, 
+will find and display in the console the element header text (<h2> tag) 
+and the number of elements in the category (all nested <li>).
 
-1. Порахує і виведе в консоль кількість категорій в ul#categories, тобто елементів li.item.
-2. Для кожного элемента li.item у списку ul#categories, знайде і виведе в консоль 
-текст заголовку елемента (тегу <h2>)
-і кількість елементів в категорії (усіх <li>, вкладених в нього).
-В результаті, в консолі будуть виведені наступні повідомлення.
+As a result, the following messages will be displayed in the console.
 
 Number of categories: 3
 

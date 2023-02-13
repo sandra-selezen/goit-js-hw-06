@@ -20,11 +20,11 @@ ingredients.forEach((ingredient) => {
 ingredientsListEl.append(...listItemsEl);
 
 /*
-Напиши скрипт, який для кожного елемента масиву ingredients:
+Write a script that, for each element in the ingredients array:
 
-1. Створить окремий елемент <li>. 
-Обов'язково використовуй метод document.createElement().
-2. Додасть назву інгредієнта як його текстовий вміст.
-3. Додасть елементу клас item.
-4. Після чого, вставить усі <li> за одну операцію у список ul#ingredients.
+1.Will create a separate <li> element. 
+Be sure to use the document.createElement() method.
+2. Will add the ingredient name as its text content.
+3. Will add the item class to the element.
+4. Then will insert all <li> to the ul#ingredients list in a single operation.
 */

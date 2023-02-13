@@ -18,12 +18,10 @@ incrementBtnEl.addEventListener("click", onIncrementBtnClick);
 decrementBtnEl.addEventListener("click", onDecrementBtnClick);
 
 /*
-Лічильник складається зі спану і кнопок, які по кліку повинні збільшувати
-і зменшувати його значення на одиницю.
+The counter consists of a span and buttons, which, when clicked, 
+should increase and decrease its value by one.
 
-1. Створи змінну counterValue, в якій буде зберігатися 
-поточне значення лічильника та ініціалізуй її значенням 0.
-2. Додай слухачів кліків до кнопок, всередині яких збільшуй 
-або зменшуй значення лічильника.
-3. Оновлюй інтерфейс новим значенням змінної counterValue.
+1. Create a variable, counterValue, that will store the current counter value and initialize it with 0.
+2. Add listeners for clicks on the buttons; inside them, increase or decrease the value of the counter.
+3. Update the interface with the new value of the variable counterValue.
 */

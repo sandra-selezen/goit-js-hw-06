@@ -20,16 +20,14 @@ form.addEventListener("submit", onFormSubmit);
 
 
 /*
-Напиши скрипт управління формою логіна.
+Write a script to manage the login form.
 
-1. Обробка відправлення форми form.login-form повинна відбуватися відповідно до події submit.
-2. Під час відправлення форми сторінка не повинна перезавантажуватися.
-3. Якщо у формі є незаповнені поля, виводь alert з попередженням про те,
-що всі поля повинні бути заповнені.
-4. Якщо користувач заповнив усі поля і відправив форму,
-збери значення полів в об'єкт, де ім'я поля буде ім'ям властивості,
-а значення поля - значенням властивості.
-Для доступу до елементів форми використовуй властивість elements.
-5. Виведи об'єкт із введеними даними в консоль
-і очисти значення полів форми методом reset.
+1. Form submission (form.login-form) must be processed on the submit event.
+2. The page must not reload when the form is submitted.
+3. If the form has empty fields, display alert saying that all fields must be filled in.
+4. As soon as the user has filled in all the fields and submitted the form, 
+collect the field values into an object, where the field name will be the property name and the field value will be the property value. 
+Use the elements property to access form elements.
+5. Display the object with the entered data in the console and 
+clear the values of the form fields using the reset method.
 */

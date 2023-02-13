@@ -15,8 +15,8 @@ const changeColor = event => {
 button.addEventListener("click", changeColor);
 
 /*
-Напиши скрипт, який змінює кольори фону елемента <body> через інлайн-стиль
-по кліку на button.change-color і виводить значення кольору в span.color.
+Write a script that changes the background colors of the <body> element via inline style 
+when clicking on button.change-color and outputs the color value to span.color.
 
-Для генерування випадкового кольору використовуй функцію getRandomHexColor.
+Use the getRandomHexColor function to generate a random color.
 */

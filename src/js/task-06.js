@@ -18,13 +18,10 @@ textInput.addEventListener("blur", onInputBlur);
 
 
 /*
-Напиши скрипт, який під час втрати фокусу на інпуті (подія blur),
-перевіряє його вміст щодо правильної кількості введених символів.
+Write a script that, when focus on input is lost (blur event), 
+checks its contents for the correct number of entered characters.
 
-1. Яка кількість символів повинна бути в інпуті,
-зазначається в його атрибуті data-length.
-2. Якщо введена правильна кількість символів, то border інпуту стає зеленим,
-якщо неправильна кількість - червоним.
-3. Для додавання стилів використовуй CSS-класи valid і invalid,
-які ми вже додали у вихідні файли завдання.
+1. The number of characters in the input is specified in its data-length attribute.
+2. If the number of characters entered is correct, the input's border turns green, or red with a wrong number.
+To add styles, use the valid and invalid CSS classes, which you can find in the task source files.
 */

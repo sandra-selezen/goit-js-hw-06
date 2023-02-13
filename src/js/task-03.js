@@ -22,11 +22,12 @@ const makeGalleryMarkup = images.map(({ url, alt }) =>
 galleryListEl.insertAdjacentHTML("afterbegin", makeGalleryMarkup);
 
 /*
-Напиши скрипт для створення галереї зображень на підставі масиву даних. 
-HTML містить список ul.gallery.
-Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
-Для створення розмітки використовуй шаблонні рядки і метод insertAdjacentHTML().
+Write a script to create a gallery of images from an array of data.
+There is a list, ul.gallery, in HTML.
 
-1. Усі елементи галереї повинні додаватися в DOM за одну операцію додавання.
-2. Додай мінімальне оформлення галереї флексбоксами або грідами через CSS класи.
+1. Use an array of objects images to create <img> elements nested in <li>.
+Use template strings and the insertAdjacentHTML() method to create markup.
+
+2. All gallery items must be added to DOM in one insert operation.
+3. Add at least some gallery design with flexboxes or grids using CSS classes.
 */

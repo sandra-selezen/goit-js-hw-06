@@ -7,7 +7,7 @@ inputEl.addEventListener("input", (e) => {
 });
 
 /* 
-Напиши скрипт, який під час набору тексту в інпуті input#name-input (подія input),
-підставляє його поточне значення в span#name-output.
-Якщо інпут порожній, у спані повинен відображатися рядок "Anonymous".
+Write a script that, when typing in the input#name-input input (input event), 
+substitutes its current value into span#name-output. 
+If the input is empty, the span should display the "Anonymous" string.
 */

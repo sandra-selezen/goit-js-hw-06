@@ -39,21 +39,18 @@ const destroyBoxes = event => {
 
 createBtn.addEventListener("click", onInputClick);
 destroyBtn.addEventListener("click", destroyBoxes);
+
 /*
-Напиши скрипт створення і очищення колекції елементів.
+Write a script to create and clear a collection of elements. 
+The user enters the number of elements into input and clicks the New button, after which a collection is rendered. 
+When you click on the Clear button, the collection is cleared.
 
-Користувач вводить кількість елементів в input і натискає кнопку Створити,
-після чого рендериться колекція.
-Натисненням на кнопку Очистити, колекція елементів очищається.
+Create a createBoxes(amount) function that takes one parameter, a number. 
+The function creates as many <div> as specified in amount and adds them to div#boxes.
 
-Створи функцію createBoxes(amount), яка приймає один параметр - число.
-Функція створює стільки <div>, скільки вказано в amount і додає їх у div#boxes.
+1. The dimensions of the very first <div> are 30px by 30px.
+2. Each element after the first one should be 10px wider and higher than the previous one.
+3. All elements must have a random HEX background color. Use the ready-made getRandomHexColor function to get a color.
 
-1. Розміри найпершого <div> - 30px на 30px.
-2. Кожен елемент після першого повинен бути ширшим і вищим від попереднього на 10px.
-3. Всі елементи повинні мати випадковий колір фону у форматі HEX.
-Використовуй готову функцію getRandomHexColor для отримання кольору.
-
-Створи функцію destroyBoxes(), яка очищає вміст div#boxes,
-у такий спосіб видаляючи всі створені елементи.
+Create a destroyBoxes() function that clears the contents of div#boxes, thereby removing all created elements.
 */
